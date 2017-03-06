@@ -1,0 +1,130 @@
+html {
+    background-color: #334;
+}
+
+body {
+    margin: 0;
+    height: 100%;
+}
+
+#header {
+    background: #a3f3ff;
+    background: -webkit-linear-gradient(-45deg, #9594ee, #a3f3ff);
+    background:      -o-linear-gradient(-45deg, #9594ee, #a3f3ff);
+    background:    -moz-linear-gradient(-45deg, #9594ee, #a3f3ff);
+    background:         linear-gradient(-45deg, #9594ee, #a3f3ff);
+    position: relative;
+}
+
+.header-container {
+    width: 670px;
+    height: 500px;
+    margin: 0 auto;
+    display: block;
+}
+
+#header img {
+    width: 150px;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.header-title {
+    position: absolute;
+    margin: 0 auto 0 170px;
+    font-size: 30pt;
+    font-family: Avenir, sans;
+    font-weight: 100;
+
+    /*center*/
+    top: 50%;
+    transform: translateY(-40%);
+    color: white;
+}
+
+
+/** SECTION ==== */
+
+.main-section {
+    padding: 70px 0px;
+    background-color: #f9f9f9;
+}
+
+.main-section.odd {
+    background-color: #f0f0f0;
+}
+
+.main-section .section-container {
+    max-width: 1000px;
+    padding: 0 30px;
+    margin: 0 auto;
+}
+
+.section-title {
+    font-family: Avenir, sans;
+    font-weight: 600;
+    font-size: 22pt;
+    color: #99e;
+
+    margin: 0;
+    text-align: center;
+}
+
+.main-section .content {
+    font-family: Avenir, sans;
+    font-size: 17pt;
+    font-weight: 200;
+    text-align: justify;
+}
+
+/** EVENTS ===== */
+#event-list {
+    padding: 0;
+}
+
+#event-list li {
+    list-style: none;
+    position: relative;
+    margin: 36pt 0;
+}
+
+.event-date {
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size: 20pt;
+}
+
+.event-description {
+    padding: 8pt 0;
+    text-align: justify;
+    font-size: 17pt;
+}
+
+.event-title {
+    font-size: 20pt;
+    font-weight: 500;
+}
+
+#event-list p {
+    margin: 0;
+    font-family: Avenir;
+}
+
+
+/* === FOOTER === */
+
+#footer {
+    padding: 70px 0px;
+    background-color: #334;
+}
+
+#footer .email-container p {
+    font-family: Avenir, sans;
+    font-size: 12pt;
+    color: #eee;
+    text-align: center;
+    padding-top: 20px;
+    margin: 0 auto;
+}
